@@ -2,19 +2,27 @@ package oop;
 
 public class Methods {
     public static void main(String[]grgs){
-
-        Parson parson=new Parson();
-        parson.sayHello();
-        sahi();
-        parson.getMaseg("ffds");
-        System.out.println(parson.name);
-        System.out.println(parson.addingall());
+        double x=addOne(10.5);
+        System.out.println(x);
+    }
+    static int addOne(int x){
+        return x+1;
+    }
+    static double addOne(double x){
+        return x+1;
+    }
+    static double addOne(float x){
+        return x+1;
+    }
+    static double addOne(){
+        return 1;
+    }
+    static double getMaxValue(double x,double y,double z){
+        double max;
+        if (x>y&&x>z){
+            max=x;
+        }
+        return 0.0;
     }
 
-    static void sahi(){
-        System.out.println("HIHIIIIIIII");
     }
-    static void sadhi(){
-        System.out.println();
-    }
-}
