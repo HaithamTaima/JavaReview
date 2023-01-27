@@ -2,6 +2,8 @@ package oop;
 
 public class Methods {
     public static void main(String[]grgs){
+        Parson parson=new Parson(6,"676");
+        Parson parson2=new Parson();
         double x=addOne(10.5);
         System.out.println(x);
     }

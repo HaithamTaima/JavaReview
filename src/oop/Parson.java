@@ -8,6 +8,11 @@ public class Parson {
         name="hhhhh";
     }
 
+    public Parson(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
     void sayHello(){
         System.out.println("sayHello");
     }
