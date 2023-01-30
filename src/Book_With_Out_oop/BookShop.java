@@ -1,8 +1,7 @@
-package Book;
+package Book_With_Out_oop;
 //https://www.youtube.com/watch?v=py18w30rweM&list=PLqPct7_jffrEHvxs2c_b40KkXktt7DlKs&index=16
 //15 BookShop Project مشروع علي ابو حرب
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class BookShop {
